@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Search-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  place-items: center;
+}
+
+.box {
+  flex: 1 1 25px;
+  margin: 5px;
+}
+
+.PTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+th,
+td {
+  border: 1px dotted gray;
+  border-collapse: collapse;
+}
